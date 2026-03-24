@@ -1,15 +1,13 @@
 # Manuscript status
 
-## Linked manuscript
-**Title:** _England & Wales microcensus analysis of nurses' commuting patterns_  
-**Journal:** *International Nursing Review*  
-**Status:** Submitted; under peer review
+Associated manuscript: submitted to *International Nursing Review*.
 
-## Version note
-The manuscript associated with this repository is **not** the version of record. Any publicly shared manuscript draft should be treated as a submitted version only unless and until a final published version becomes available.
+Current status: under peer review.
 
-## Relationship to this repository
-This repository contains the public code archive and repository-level documentation for the completed England & Wales analysis. It does not contain the restricted underlying microdata.
+This repository contains the archived analysis code and public study documentation for the England & Wales microcensus analysis of nurses' commuting patterns.
 
-## Open-science note
-This England & Wales study was completed before the current prospective open-science workflow was established. It is therefore being shared as a transparency archive rather than as a prospectively preregistered study.
+Citable code release DOI: https://doi.org/10.5281/zenodo.19209218
+
+Concept DOI for the repository as a whole: https://doi.org/10.5281/zenodo.19209219
+
+This is not the version of record for the journal article.
