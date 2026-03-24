@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the archived release."
-title: "England & Wales microcensus analysis of nurses' commuting patterns"
+title: "England and Wales 2021 nurse commute analysis code"
 type: software
 authors:
   - family-names: "Jamieson"
