@@ -13,3 +13,6 @@ authors:
 repository-code: "https://github.com/themichjam/nurse_commute_habits_eng_wales"
 url: "https://github.com/themichjam/nurse_commute_habits_eng_wales"
 license: "MIT"
+version: "1.0.0"
+doi: "10.5281/zenodo.19209218"
+date-released: 2026-03-24
