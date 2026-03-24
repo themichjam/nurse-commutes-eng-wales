@@ -12,7 +12,7 @@ This repository is being shared to improve transparency and reproducibility. The
 
 If you use this code, please cite the archived Zenodo release:
 
-Jamieson, M., & Atherton, I. (2026). *England & Wales microcensus analysis of nurses' commuting patterns* (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.19209218
+Jamieson, M., & Atherton, I. (2026). *England and Wales 2021 nurse commute analysis code* (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.19209218
 
 Concept DOI for the repository as a whole: https://doi.org/10.5281/zenodo.19209219
 
