@@ -1,8 +1,8 @@
-# England & Wales microcensus analysis of nurses' commuting patterns
+# England & Wales 2021 microcensus analysis of nurses' commuting patterns
 [![DOI](https://zenodo.org/badge/1018535453.svg)](https://doi.org/10.5281/zenodo.19209218)
 
 ## Overview
-This repository contains the public analysis code and supporting documentation for the completed England & Wales microcensus analysis of nurses' commuting patterns.
+This repository contains the public analysis code and supporting documentation for the completed England & Wales 2021 microcensus analysis of nurses' commuting patterns.
 
 The study examines commuting distance and transport mode among nurses and midwives compared with a comparator occupational group using England & Wales microcensus data. The associated manuscript has been submitted to *International Nursing Review* and is currently under peer review.
 
@@ -12,7 +12,7 @@ This repository is being shared to improve transparency and reproducibility. The
 
 If you use this code, please cite the archived Zenodo release:
 
-Jamieson, M., & Atherton, I. (2026). *England and Wales 2021 nurse commute analysis code* (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.19209218
+Jamieson, M., & Atherton, I. (2026). *England & Wales microcensus 2021 nurse commute project analysis code* (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.19209218
 
 Concept DOI for the repository as a whole: https://doi.org/10.5281/zenodo.19209219
 
@@ -66,14 +66,18 @@ Once a Zenodo release DOI has been minted, that DOI should be used as the primar
 ## Suggested citation
 **Before Zenodo DOI is minted**
 
-Jamieson, M. *England & Wales microcensus analysis of nurses' commuting patterns* [code repository]. GitHub. Available at: `https://github.com/YOUR-USERNAME/nurse-travel-england-wales-analysis`
+Jamieson, M. *England & Wales microcensus 2021 nurse commute project analysis code* [code repository]. GitHub. Available at: `https://github.com/YOUR-USERNAME/nurse-travel-england-wales-analysis`
 
 **After Zenodo DOI is minted**
 
-Jamieson, M. (2026). *England & Wales microcensus analysis of nurses' commuting patterns* (Version 1.0.0) [Computer software]. Zenodo. `https://doi.org/10.5281/zenodo.xxxxxxx`
+Jamieson, M. (2026). *England & Wales microcensus 2021 nurse commute project analysis code* (Version 1.0.0) [Computer software]. Zenodo. `https://doi.org/10.5281/zenodo.xxxxxxx`
 
 ## Author and affiliation
 **Michelle Jamieson**  
+Edinburgh Napier University  
+Scottish Centre for Administrative Data Research
+
+**Iain Atherton**  
 Edinburgh Napier University  
 Scottish Centre for Administrative Data Research
 
