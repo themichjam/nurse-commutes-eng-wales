@@ -5,8 +5,10 @@ type: software
 authors:
   - family-names: "Jamieson"
     given-names: "Michelle"
-    orcid: "https://orcid.org/0000-0003-2145-8988"
+    affiliation: "Edinburgh Napier University; Scottish Centre for Administrative Data Research (SCADR)"
+    orcid: "https://orcid.org/YOUR-ORCID-HERE"
   - family-names: "Atherton"
     given-names: "Iain"
+    affiliation: "Edinburgh Napier University; Scottish Centre for Administrative Data Research (SCADR)"
 repository-code: "https://github.com/themichjam/nurse_travel_england_wales"
 license: "MIT"
