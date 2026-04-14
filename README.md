@@ -1,90 +1,128 @@
 # England & Wales 2021 microcensus analysis of nurses' commuting patterns
 
-[![DOI](https://img.shields.io/badge/OSF-10.17605%2FOSF.IO%2FQS4WV-blue)](https://doi.org/10.17605/OSF.IO/QS4WV)
-
+[![OSF](https://img.shields.io/badge/OSF-10.17605%2FOSF.IO%2FQS4WV-blue)](https://doi.org/10.17605/OSF.IO/QS4WV)
 [![DOI](https://zenodo.org/badge/1018535453.svg)](https://zenodo.org/badge/latestdoi/1018535453)
+[![Environment](https://img.shields.io/badge/Environment-Secure%20Data-orange)]
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+This repository provides the analysis code for a completed study of nurses’ commuting patterns using England & Wales Census 2021 microdata. The project is documented on OSF and archived on Zenodo for reproducibility.
+
+---
 
 ## Overview
-This repository contains the public analysis code and supporting documentation for the completed England & Wales 2021 microcensus analysis of nurses' commuting patterns.
 
-The study examines commuting distance and transport mode among nurses and midwives compared with a comparator occupational group using England & Wales microcensus data. The associated manuscript has been submitted to *International Nursing Review* and is currently under peer review.
+This repository contains the analysis code and minimal supporting documentation for the England & Wales 2021 microcensus analysis of nurses’ commuting patterns.
 
-This repository is being shared to improve transparency and reproducibility. The underlying microdata are restricted-access and cannot be made publicly available here.
+The study compares commuting distance and transport mode among nurses and midwives with a comparator occupational group using Census 2021 microdata (England & Wales).
 
-## Citation
+The associated manuscript is currently under peer review at *International Nursing Review*.
 
-If you use this code, please cite the archived Zenodo release:
+---
 
-Jamieson, M., & Atherton, I. (2026). *England & Wales microcensus 2021 nurse commute project analysis code* (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.19209218
+## Open science and transparency
 
-Concept DOI for the repository as a whole: https://doi.org/10.5281/zenodo.19209219
+This project follows a hybrid open science model:
+
+- **OSF (project hub: protocol, materials, documentation)**  
+  https://doi.org/10.17605/OSF.IO/QS4WV
+
+- **Zenodo (versioned, citable archive of analysis code)**  
+  https://doi.org/10.5281/zenodo.19209219
+
+The analysis uses restricted-access Census microdata, which cannot be shared publicly. This repository provides the full analytical workflow required to reproduce the results within an approved secure research environment.
+
+---
 
 ## Study status
-- **Analysis status:** completed
-- **Manuscript status:** submitted to *International Nursing Review*; under peer review
-- **Preregistration status:** none for this England & Wales analysis, because the study was completed before the current prospective open-science workflow was established
-- **Related OSF project:** https://osf.io/8pexy/overview
-- **Related future work:** a separate Scotland analysis is planned under a prospective open-science workflow
 
-## Repository contents
-- `inr_nurse_eng_wal_analysis.R` — main R analysis script
-- `docs/manuscript_status.md` — short note on manuscript status and versioning
-- `LICENSE` — licence for the code in this repository
-- `CITATION.cff` — citation metadata for GitHub and downstream archives
-- `.gitignore` — standard exclusions for local and generated files
+- Analysis: complete  
+- Manuscript: under review (*International Nursing Review*)  
+- Preregistration: not applicable (retrospective analysis)
 
-## Data access and restrictions
-The analysis uses restricted-access microcensus data. These data are **not** included in this repository and cannot be shared publicly.
+---
 
-Anyone wishing to rerun the analysis would need:
-1. legitimate access to the underlying data through the relevant governance route;
-2. local adaptation of file paths and, where necessary, environment-specific settings; and
-3. the required R packages installed locally.
+## Repository structure
 
-## Software and package dependencies
-The main script currently loads the following R packages:
-- `haven`
-- `dplyr`
-- `tidyr`
-- `forcats`
-- `MASS`
-- `broom`
-- `tibble`
-- `tidyselect`
-- `gtsummary`
+- `inr_nurse_eng_wal_analysis.R` — main analysis script  
+- `manuscript_status.md` — manuscript tracking notes  
+- `CITATION.cff` — citation metadata  
+- `LICENSE` — MIT license
 
-Users may also need additional packages depending on later sections of the script and local execution environment.
+---
 
-## Reproducibility note
-This repository is intended as a transparency archive for the code used in the England & Wales analysis. Because the underlying data are restricted and the script currently contains environment-specific file paths, some local modification will be required before the code can be rerun in another secure environment.
+## Data access
+
+The analysis uses restricted-access Census 2021 microdata (England & Wales).
+
+These data are not publicly available. Access is subject to approval via the relevant secure research service.
+
+To reproduce the analysis, users must:
+- obtain authorised access to the data;
+- adapt file paths and environment-specific settings; and
+- install required R packages.
+
+---
+
+## Software and dependencies
+
+The main script uses the following R packages:
+
+- haven  
+- dplyr  
+- tidyr  
+- forcats  
+- MASS  
+- broom  
+- tibble  
+- tidyselect  
+- gtsummary  
+
+Additional packages may be required depending on execution environment and extensions to the analysis.
+
+---
+
+## Reproducibility
+
+This repository provides the complete analytical logic used in the study. Full reproducibility requires execution within an approved secure data environment.
+
+The code may require minor modification to run in different environments due to:
+- secure data access constraints;
+- environment-specific file paths; and
+- dependency management.
+
+---
 
 ## Citation
-Please cite the archived release of this repository.
 
-- **GitHub repository:** `https://github.com/YOUR-USERNAME/nurse-travel-england-wales-analysis`
-- **Zenodo DOI:** `TO BE ADDED AFTER FIRST RELEASE`
+Please cite the archived Zenodo release:
 
-Once a Zenodo release DOI has been minted, that DOI should be used as the primary citation target for the code.
+Jamieson M, Atherton I. England & Wales microcensus 2021 nurse commute analysis code (Version 1.0.1) [software]. Zenodo. https://doi.org/10.5281/zenodo.19209219
 
-## Suggested citation
-**Before Zenodo DOI is minted**
+Concept DOI (all versions):  
+https://doi.org/10.5281/zenodo.19209219
 
-Jamieson, M. *England & Wales microcensus 2021 nurse commute project analysis code* [code repository]. GitHub. Available at: `https://github.com/YOUR-USERNAME/nurse-travel-england-wales-analysis`
+---
 
-**After Zenodo DOI is minted**
+## Authors and affiliation
 
-Jamieson, M. (2026). *England & Wales microcensus 2021 nurse commute project analysis code* (Version 1.0.0) [Computer software]. Zenodo. `https://doi.org/10.5281/zenodo.xxxxxxx`
-
-## Author and affiliation
-**Michelle Jamieson**  
+Michelle Jamieson  
 Edinburgh Napier University  
-Scottish Centre for Administrative Data Research
+Scottish Centre for Administrative Data Research  
 
-**Iain Atherton**  
+Iain Atherton  
 Edinburgh Napier University  
-Scottish Centre for Administrative Data Research
+Scottish Centre for Administrative Data Research  
 
-## Recommended related links
-- OSF project hub: https://osf.io/8pexy/overview
-- Add Zenodo DOI here after release
-- Add published article citation here once available
+---
+
+## Related resources
+
+- OSF project hub: https://doi.org/10.17605/OSF.IO/QS4WV  
+- Zenodo archive: https://doi.org/10.5281/zenodo.19209219  
+- Manuscript: under review (*International Nursing Review*)
+
+---
+
+## License
+
+This repository is licensed under the MIT License.
