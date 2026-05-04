@@ -105,11 +105,11 @@ https://doi.org/10.5281/zenodo.19209219
 
 ## Authors and affiliation
 
-Michelle Jamieson  
+Dr. Michelle Jamieson  
 Edinburgh Napier University  
 Scottish Centre for Administrative Data Research  
 
-Iain Atherton  
+Prof. Iain Atherton  
 Edinburgh Napier University  
 Scottish Centre for Administrative Data Research  
 
