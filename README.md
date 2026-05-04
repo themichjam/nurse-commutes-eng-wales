@@ -96,7 +96,7 @@ The code may require minor modification to run in different environments due to:
 
 Please cite the archived Zenodo release:
 
-Jamieson M, Atherton I. England & Wales microcensus 2021 nurse commute analysis code (Version 1.0.1) [software]. Zenodo. https://doi.org/10.5281/zenodo.19209219
+Jamieson M & Atherton I. England & Wales microcensus 2021 nurse commute analysis code (Version 1.0.1) [software]. Zenodo. https://doi.org/10.5281/zenodo.19209219
 
 Concept DOI (all versions):  
 https://doi.org/10.5281/zenodo.19209219
